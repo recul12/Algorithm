@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.*;
 
-public class BOJ11725 {
+public class BOJ_11725 {
     static int N;
     static Node[] nodes;
     static Queue<Integer> queue;
