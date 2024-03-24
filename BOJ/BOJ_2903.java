@@ -21,6 +21,6 @@ public class BOJ_2903 {
 
         // 각 변마다 2, 3, 5, 9 이런 식으로 늘어나고 점의 개수는 각 변의 제곱과 같다.
         // 증가치는 1, 2, 4, 8 식으로 2의 제곱으로 늘어나고 N=1 결과가 9이므로 첫번째가 3이 되도록 1을 더하면 된다.
-        System.out.println(Math.pow(Math.pow(2, N)+1, 2));
+        System.out.println((int)Math.pow(Math.pow(2, N)+1, 2));
     }
 }
